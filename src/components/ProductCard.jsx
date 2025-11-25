@@ -23,9 +23,8 @@ const ProductCard = () => {
         className="
           w-full object-contain rounded-lg bg-white p-2
 
-          h-20     /* mobile height */
-          sm:h-24  /* tablet */
-          md:h-28  /* desktop */
+          h-20     
+          sm:h-24   md:h-28 
         "
       />
 
@@ -40,13 +39,13 @@ const ProductCard = () => {
         </h5>
 
         <p className="flex items-start sm:items-center gap-2 text-xs sm:text-sm text-gray-800">
-          <MapPin size={14} className="sm:size-[16px]" />
+          <MapPin size={16} />
           Lorem ipsum dolor sit amet consectetur | dolor sit amet consectetur
           adipisicing
         </p>
 
         <p className="flex items-start sm:items-center gap-2 text-xs sm:text-sm text-gray-800">
-          <Users size={14} className="sm:size-[16px]" />
+          <Users size={16} />
           Lorem ipsum dolor sit amet consectetur adipi | Lorem ipsum dolor sit
           amet consectetur adipi
         </p>
