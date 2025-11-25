@@ -29,21 +29,19 @@ const ProductCard = () => {
 
       {/* DETAILS */}
       <div className="flex flex-col gap-1">
-        <h4 className="font-semibold text-base sm:text-lg md:text-xl">
-          Manufacturer
-        </h4>
+        <h4 className="font-semibold text-base sm:text-lg ">Manufacturer</h4>
 
         <h5 className="text-xs sm:text-sm text-gray-600">
           Ramchandra Pvt Ltd.
         </h5>
 
-        <p className="flex items-start sm:items-center gap-2 text-xs sm:text-sm text-gray-800">
-          <MapPin size={16} />
+        <p className="flex items-start sm:items-center gap-2 text-sm  text-gray-800">
+          <MapPin size={18} />
           Lorem ipsum dolor sit amet consectetur | dolor sit amet consectetur
           adipisicing
         </p>
 
-        <p className="flex items-start sm:items-center gap-2 text-xs sm:text-sm text-gray-800">
+        <p className="flex items-start sm:items-center gap-2 text-sm  text-gray-800">
           <Users size={16} />
           Lorem ipsum dolor sit amet consectetur adipi | Lorem ipsum dolor sit
           amet consectetur adipi

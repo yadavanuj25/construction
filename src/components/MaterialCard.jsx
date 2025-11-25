@@ -25,8 +25,7 @@ const MaterialCard = ({ title }) => {
       <h4
         className="
           text-gray-700 text-center leading-tight font-medium
-          text-xs        
-          sm:text-sm     
+              
         "
       >
         {title}
