@@ -3,9 +3,26 @@ import React from "react";
 
 const ActiveSidebarCard = ({ title }) => {
   return (
-    <div className="flex items-center gap-3 bg-[#0A1E5E] text-white rounded-2xl px-6 py-6 shadow-sm cursor-pointer">
-      <LayoutDashboard size={22} />
-      <span className="text-base font-semibold leading-tight">{title}</span>
+    <div
+      className="
+        flex items-center gap-3 
+        bg-[#0A1E5E] text-white rounded-2xl shadow-sm cursor-pointer 
+        px-4 py-4        
+        sm:px-5 sm:py-5 
+        md:px-6 md:py-6  
+      "
+    >
+      <LayoutDashboard size={20} className="sm:size-[22px]" />
+
+      <span
+        className="
+          font-semibold leading-tight
+          text-sm           
+          sm:text-base            
+        "
+      >
+        {title}
+      </span>
     </div>
   );
 };
