@@ -7,9 +7,9 @@ const ProductCard = () => {
     <div
       className="
         grid 
-        grid-cols-1            /* mobile: stack */
-        sm:grid-cols-[80px_1fr] /* tablet: 2 columns */
-        lg:grid-cols-[90px_1fr_auto] /* desktop: 3 columns */
+        grid-cols-1           
+        sm:grid-cols-[80px_1fr] 
+        lg:grid-cols-[90px_1fr_auto] 
 
         gap-4 bg-gray-200 rounded-xl 
         p-3 sm:p-4 md:p-5
@@ -21,11 +21,10 @@ const ProductCard = () => {
         src={concreteImg}
         alt="img"
         className="
-          w-full object-contain rounded-lg bg-white p-2
-
-          h-20     
-          sm:h-24   md:h-28 
-        "
+            w-full h-full 
+            object-cover 
+            rounded-md bg-white
+          "
       />
 
       {/* DETAILS */}

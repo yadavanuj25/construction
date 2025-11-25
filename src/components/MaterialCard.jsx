@@ -9,19 +9,17 @@ const MaterialCard = ({ title }) => {
         border border-gray-200 rounded-xl shadow-sm cursor-pointer
         hover:shadow transition bg-white
         px-3 py-3           
-        sm:px-4 sm:py-4    
-        md:px-5 md:py-5     
+        
       "
     >
       <img
         src={concreteImg}
         alt="material"
         className="
-          object-cover rounded-md
-          w-20 h-14      
-          sm:w-24 sm:h-16 
-          md:w-28 md:h-20 
-        "
+            w-full h-full 
+            object-cover 
+            rounded-lg bg-white
+          "
       />
 
       <h4
@@ -29,7 +27,6 @@ const MaterialCard = ({ title }) => {
           text-gray-700 text-center leading-tight font-medium
           text-xs        
           sm:text-sm     
-           
         "
       >
         {title}
